@@ -12,5 +12,17 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require turbolinks
+//= require core
+//= require mediaquery
+//= require swap
+//= require touch
+//= require navigation
+//= require smoothscroll
+//= require jquery.nav
+//= require jquery.imagesloaded
+//= require jquery.wookmark.min
+//= require retina.min
+//= require custom
 //= require_tree .

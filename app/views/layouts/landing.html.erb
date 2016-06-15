@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="SELENA - Free Multi-Purpose One Page Template">
+  <meta name="keywords" content="SELENA, Free, Multi-Purpose, One Page, Template, Responsive, HTML5, CSS3">
+  <meta name="author" content="Maher Jarrah">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Sinopak</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <!-- =========================
+        FAV AND TOUCH ICONS
+  ========================= -->
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <script>
+    //make sure that js is enabled
+    $('html').addClass('js');
+  </script>
+
+  <!--[if IE]>
+  <style>label {display: block;}</style>
+  <![endif]-->
+  <%= stylesheet_link_tag "navigation" -%>
+  <%#= stylesheet_link_tag "styles" -%>
+  <%= stylesheet_link_tag "responsive" -%>
+</head>
+
+<body>
+<%= yield %>
+
+</body>
+</html>
